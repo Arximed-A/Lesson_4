@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Kurale&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pacifico:regular=Kurale&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Marck+Script:regular=Kurale&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900=Kurale&display=swap");
+
+@font-face {
+	font-family: "ReformaGroteskBoldC";
+	src: url("../fonts/ReformaGroteskBoldC.woff2") format("woff2"),
+		url("../fonts/ReformaGroteskBoldC.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Стили обнуления */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	font-size: 20px;
+	text-align: left;
+}
+/* Классы */
+.spaces {
+	color: white;
+	text-shadow: none;
+}
+.header {
+	text-align: center;
+	font-family: ReformaGroteskBoldC;
+}
+.p.one {
+	white-space: pre-wrap;
+	color: rgb(140, 4, 167);
+	letter-spacing: 0.2rem;
+	font-family: "Hachi Maru Pop", cursive;
+	text-shadow: -2px -3px 1px rgb(27, 153, 215);
+}
+.main {
+	text-align: justify;
+	line-height: 1.5;
+}
+.main > nav {
+	color: #808080c9;
+	font-style: oblique;
+	font-weight: 900;
+}
+.text {
+	color: navy;
+	font-family: Pacifico;
+	text-shadow: 10px 10px 9px rgb(13, 12, 22);
+}
+.p {
+	text-indent: 30px;
+}
+.up__title {
+	text-transform: capitalize;
+	font-size: 45px;
+}
+.nav span {
+	font-size: 25px;
+	font-family: "Playfair Display";
+	text-shadow: 1px 0px 9px rgb(0, 0, 0);
+}
+p > .p {
+	color: salmon;
+}
+.title {
+	font-weight: 700;
+	text-decoration: underline;
+	font-size: 30px;
+	word-spacing: 50px;
+	font-style: 400px;
+	font-family: "Kurale", serif;
+	text-shadow: 5px 5px 1px rgb(187, 175, 6), 10px 10px 1px rgb(187, 175, 206), 15px 15px 1px rgb(17, 15, 6);
+}
+.test {
+	color: white;
+	text-shadow: 0px 0px 3px #000;
+}
+span {
+	text-transform: uppercase;
+	font-size: 20px;
+	text-shadow: 2px 2px 1px rgb(255, 0, 0);
+}
+h2.title {
+	color: rgba(99, 170, 17, 0.959);
+}
+h3.title {
+	color: salmon;
+	text-transform: lowercase;
+}
+p.p.it {
+	color: rgba(6, 187, 60, 0.787);
+	font-style: italic;
+	font-family: "Marck Script";
+	font-size: 30px;
+}
+.footer {
+	text-align: right;
+	text-decoration: overline;
+}
+.pop {
+	text-decoration: line-through;
+}
